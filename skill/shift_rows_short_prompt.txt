@@ -1,0 +1,14 @@
+Implement Vitis HLS C++ kernel ShiftRows. Keep the given header API.
+
+Header shift_rows.h already defines:
+  typedef uint8_t state_t[4][4];
+  void ShiftRows(state_t *state);
+
+Behavior (AES ShiftRows, matching the provided testbench layout):
+operate in-place like the classic tiny-AES column/row packing used by the testbench.
+
+Reply with ONLY this block (no markdown):
+<OUTPUT_CODE name="shift_rows.cpp">
+#include "shift_rows.h"
+... full implementation ...
+</OUTPUT_CODE>

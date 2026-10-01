@@ -1,0 +1,7 @@
+You are writing a tiny HLS C++ helper.
+Reply with:
+1) a short note in <think> ... </think>
+2) exactly one block <OUTPUT_CODE name="add.cpp"> ... </OUTPUT_CODE> containing the full source.
+
+Implement: int add_one(int x) { return x + 1; }
+Keep the answer short.

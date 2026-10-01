@@ -1,0 +1,3 @@
+Write a complete C++ function only, no markdown, no explanation:
+
+int add_one(int x) { return x + 1; }

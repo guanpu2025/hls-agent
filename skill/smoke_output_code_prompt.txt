@@ -1,0 +1,4 @@
+Reply with exactly one block in this format and nothing else:
+<OUTPUT_CODE name="add.cpp">
+int add_one(int x) { return x + 1; }
+</OUTPUT_CODE>
